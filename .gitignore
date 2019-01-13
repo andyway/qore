@@ -37,6 +37,7 @@ config/admin/bindatafs/templates_bindatafs.go
 deploy.sh
 db/seeds/enterprise
 db/seeds/main
+db/data/*
 harp.json
 .harp
 tmp/*
