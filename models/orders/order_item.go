@@ -1,9 +1,9 @@
 package orders
 
 import (
+	"github.com/andyway/qore/config/db"
+	"github.com/andyway/qore/models/products"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/products"
 	"github.com/qor/transition"
 )
 

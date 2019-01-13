@@ -3,10 +3,10 @@ package stores
 import (
 	"strings"
 
+	"github.com/andyway/qore/config/application"
+	"github.com/andyway/qore/models/stores"
 	"github.com/qor/admin"
 	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/models/stores"
 	"github.com/qor/qor/resource"
 	"github.com/qor/qor/utils"
 	"github.com/qor/validations"

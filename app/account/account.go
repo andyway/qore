@@ -3,13 +3,13 @@ package account
 import (
 	"strconv"
 
+	"github.com/andyway/qore/config/application"
+	"github.com/andyway/qore/config/auth"
+	"github.com/andyway/qore/models/users"
+	"github.com/andyway/qore/utils/funcmapmaker"
 	"github.com/go-chi/chi"
 	"github.com/qor/admin"
 	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/config/auth"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/qor-example/utils/funcmapmaker"
 	"github.com/qor/qor/resource"
 	qorutils "github.com/qor/qor/utils"
 	"github.com/qor/render"

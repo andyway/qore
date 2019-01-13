@@ -5,15 +5,15 @@ import (
 	"path/filepath"
 	"time"
 
+	"github.com/andyway/qore/config/db"
+	"github.com/andyway/qore/config/i18n"
+	"github.com/andyway/qore/models/products"
 	"github.com/qor/admin"
 	"github.com/qor/exchange"
 	"github.com/qor/exchange/backends/csv"
 	"github.com/qor/i18n/exchange_actions"
 	"github.com/qor/media/oss"
 	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/config/i18n"
-	"github.com/qor/qor-example/models/products"
 	"github.com/qor/worker"
 )
 

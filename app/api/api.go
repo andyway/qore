@@ -1,13 +1,13 @@
 package api
 
 import (
+	"github.com/andyway/qore/config/application"
+	"github.com/andyway/qore/config/db"
+	"github.com/andyway/qore/models/orders"
+	"github.com/andyway/qore/models/products"
+	"github.com/andyway/qore/models/users"
 	"github.com/qor/admin"
 	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/orders"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/models/users"
 )
 
 // New new home app

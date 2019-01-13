@@ -6,13 +6,13 @@ import (
 	"html/template"
 	"net/http"
 
+	"github.com/andyway/qore/config/db"
+	"github.com/andyway/qore/models/products"
 	"github.com/qor/admin"
 	"github.com/qor/banner_editor"
 	"github.com/qor/l10n"
 	"github.com/qor/media/oss"
 	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/products"
 	"github.com/qor/qor/resource"
 	"github.com/qor/sorting"
 	"github.com/qor/widget"
@@ -127,7 +127,7 @@ func SetupWidget(Admin *admin.Admin) {
 	imageRes := Admin.NewResource(&imageSetting{})
 	imageRes.Meta(&admin.Meta{Name: "Image"})
 
-	banner_editor.RegisterViewPath("github.com/qor/qor-example/app/views/banner_editor")
+	banner_editor.RegisterViewPath("github.com/andyway/qore/app/views/banner_editor")
 	banner_editor.RegisterElement(&banner_editor.Element{
 		Icon:     "<i class=material-icons>short_text</i>",
 		Name:     "Add Header",

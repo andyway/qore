@@ -3,6 +3,10 @@ package auth
 import (
 	"time"
 
+	"github.com/andyway/qore/config"
+	"github.com/andyway/qore/config/bindatafs"
+	"github.com/andyway/qore/config/db"
+	"github.com/andyway/qore/models/users"
 	"github.com/qor/auth"
 	"github.com/qor/auth/authority"
 	"github.com/qor/auth/providers/facebook"
@@ -10,10 +14,6 @@ import (
 	"github.com/qor/auth/providers/google"
 	"github.com/qor/auth/providers/twitter"
 	"github.com/qor/auth_themes/clean"
-	"github.com/qor/qor-example/config"
-	"github.com/qor/qor-example/config/bindatafs"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/users"
 	"github.com/qor/render"
 )
 

@@ -3,9 +3,9 @@ package account
 import (
 	"net/http"
 
-	"github.com/qor/qor-example/models/orders"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/qor-example/utils"
+	"github.com/andyway/qore/models/orders"
+	"github.com/andyway/qore/models/users"
+	"github.com/andyway/qore/utils"
 	"github.com/qor/render"
 )
 

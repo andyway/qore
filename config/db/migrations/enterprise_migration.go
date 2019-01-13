@@ -2,7 +2,7 @@
 
 package migrations
 
-import "github.com/qor/qor-example/app/enterprise"
+import "github.com/andyway/qore/app/enterprise"
 
 func init() {
 	AutoMigrate(&enterprise.QorMicroSite{})

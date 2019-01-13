@@ -6,10 +6,10 @@ import (
 	"fmt"
 
 	"enterprise.getqor.com/promotion"
+	"github.com/andyway/qore/config/db"
+	"github.com/andyway/qore/models/products"
 	"github.com/qor/admin"
 	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/db"
-	"github.com/qor/qor-example/models/products"
 )
 
 // SetupPromotion setup promotion

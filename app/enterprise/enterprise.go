@@ -3,7 +3,7 @@
 package enterprise
 
 import (
-	"github.com/qor/qor-example/config/application"
+	"github.com/andyway/qore/config/application"
 )
 
 // New new home app

@@ -5,8 +5,8 @@ import (
 	"math/rand"
 	"time"
 
+	"github.com/andyway/qore/models/users"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/qor-example/models/users"
 	"github.com/qor/transition"
 )
 

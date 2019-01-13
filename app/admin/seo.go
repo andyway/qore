@@ -1,9 +1,9 @@
 package admin
 
 import (
+	"github.com/andyway/qore/models/products"
+	"github.com/andyway/qore/models/seo"
 	"github.com/qor/admin"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/models/seo"
 	qor_seo "github.com/qor/seo"
 )
 

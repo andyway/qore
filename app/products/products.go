@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"html/template"
 
+	"github.com/andyway/qore/config/application"
+	"github.com/andyway/qore/models/products"
+	"github.com/andyway/qore/utils/funcmapmaker"
 	"github.com/jinzhu/gorm"
 	"github.com/qor/admin"
 	"github.com/qor/media"
 	"github.com/qor/media/media_library"
 	"github.com/qor/qor"
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/utils/funcmapmaker"
 	"github.com/qor/render"
 )
 

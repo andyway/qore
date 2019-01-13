@@ -10,14 +10,14 @@ Chat Room: [![Join the chat at https://gitter.im/qor/qor](https://badges.gitter.
 
 ```shell
 # Get example app
-$ go get -u github.com/qor/qor-example
+$ go get -u github.com/andyway/qore
 
 # Setup database
 $ mysql -uroot -p
 mysql> CREATE DATABASE qor_example;
 
 # Run Application
-$ cd $GOPATH/src/github.com/qor/qor-example
+$ cd $GOPATH/src/github.com/andyway/qore
 $ go run main.go
 ```
 
@@ -35,13 +35,13 @@ $ go test $(go list ./... | grep -v /vendor/ | grep  -v /db/)
 
 ## Admin Management Interface
 
-[Qor Example admin configuration](https://github.com/qor/qor-example/blob/master/config/admin/admin.go)
+[Qor Example admin configuration](https://github.com/andyway/qore/blob/master/config/admin/admin.go)
 
 Online Demo Website: [demo.getqor.com/admin](http://demo.getqor.com/admin)
 
 ## RESTful API
 
-[Qor Example API configuration](https://github.com/qor/qor-example/blob/master/config/api/api.go)
+[Qor Example API configuration](https://github.com/andyway/qore/blob/master/config/api/api.go)
 
 Online Example APIs:
 

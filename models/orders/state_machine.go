@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
+	"github.com/andyway/qore/config"
+	"github.com/andyway/qore/models/users"
+	"github.com/andyway/qore/utils"
 	"github.com/jinzhu/gorm"
 	amazonpay "github.com/qor/amazon-pay-sdk-go"
-	"github.com/qor/qor-example/config"
-	"github.com/qor/qor-example/models/users"
-	"github.com/qor/qor-example/utils"
 	"github.com/qor/transition"
 )
 

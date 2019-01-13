@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/qor/qor-example/models/products"
-	"github.com/qor/qor-example/utils"
+	"github.com/andyway/qore/models/products"
+	"github.com/andyway/qore/utils"
 	"github.com/qor/render"
 )
 

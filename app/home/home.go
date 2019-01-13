@@ -1,8 +1,8 @@
 package home
 
 import (
-	"github.com/qor/qor-example/config/application"
-	"github.com/qor/qor-example/utils/funcmapmaker"
+	"github.com/andyway/qore/config/application"
+	"github.com/andyway/qore/utils/funcmapmaker"
 	"github.com/qor/render"
 )
 

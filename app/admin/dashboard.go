@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"time"
 
+	"github.com/andyway/qore/config/db"
 	"github.com/jinzhu/now"
 	"github.com/qor/admin"
-	"github.com/qor/qor-example/config/db"
 )
 
 type Chart struct {
